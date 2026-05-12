@@ -59,11 +59,14 @@ python3 NobitexAlerter.py \
 python NobitexAlerter.py --alert BTCUSDT,>=,400000000,09xxxxxxxxx --duration 30 --sleep 300
 ```
 ### Arguments
-* --alert or -a: Add an alert in the format SYMBOL,OPERATOR,VALUE,RECIPIENT.
+* ```text --alert or -a: Add an alert in the format SYMBOL,OPERATOR,VALUE,RECIPIENT.```
 
-* --duration or -d: Total monitoring time in minutes. Default is 15.
+* ```text --duration or -d: Total monitoring time in minutes. Default is 15.```
 
-* --sleep or -s: Time between checks in seconds. Default is 300.
+* ```text --sleep or -s: Time between checks in seconds. Default is 300.```
 
 ### Supported Operators
->,<,>=,<=,==
+```text >,<,>=,<=,==```
+
+# Refrences
+[Nobitex API Documentation](https://apidocs.nobitex.ir/#api)
