@@ -66,12 +66,12 @@ python NobitexAlerter.py --alert BTCUSDT,>=,400000000,09xxxxxxxxx --duration 30 
 * --sleep or -s: Time between checks in seconds. Default is 300.
 
 ### Supported Operators
-* >
+*>
 
-* <
+*<
 
-* >=
+*>=
 
-* <=
+*<=
 
-* ==
+*==
