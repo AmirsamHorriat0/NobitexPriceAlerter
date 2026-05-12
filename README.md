@@ -11,17 +11,17 @@ NobitexAlerter/
 ```
 
 # Features
-⋅⋅⋅⋅* Monitors crypto prices from Nobitex test API.
+* Monitors crypto prices from Nobitex test API.
 
-⋅⋅⋅⋅* Supports multiple alerts from the command line.
+* Supports multiple alerts from the command line.
 
-⋅⋅⋅⋅* Checks price against custom thresholds.
+* Checks price against custom thresholds.
 
-⋅⋅⋅⋅* Sends SMS notifications through Kavenegar.
+* Sends SMS notifications through Kavenegar.
 
-⋅⋅⋅⋅* Configurable polling interval and monitoring duration.
+* Configurable polling interval and monitoring duration.
 
-⋅⋅⋅⋅* Easy to modify for other SMS providers or exchanges.
+* Easy to modify for other SMS providers or exchanges.
 
 # How it works
 You define alerts in this format:
@@ -59,19 +59,19 @@ python3 NobitexAlerter.py \
 python NobitexAlerter.py --alert BTCUSDT,>=,400000000,09xxxxxxxxx --duration 30 --sleep 300
 ```
 ### Arguments
-⋅⋅⋅⋅* --alert or -a: Add an alert in the format SYMBOL,OPERATOR,VALUE,RECIPIENT.
+* --alert or -a: Add an alert in the format SYMBOL,OPERATOR,VALUE,RECIPIENT.
 
-⋅⋅⋅⋅* --duration or -d: Total monitoring time in minutes. Default is 15.
+* --duration or -d: Total monitoring time in minutes. Default is 15.
 
-⋅⋅⋅⋅* --sleep or -s: Time between checks in seconds. Default is 300.
+* --sleep or -s: Time between checks in seconds. Default is 300.
 
 ### Supported Operators
-⋅⋅⋅⋅* >
+* >
 
-⋅⋅⋅⋅* <
+* <
 
-⋅⋅⋅⋅* >=
+* >=
 
-⋅⋅⋅⋅* <=
+* <=
 
-⋅⋅⋅⋅* ==
+* ==
