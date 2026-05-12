@@ -56,7 +56,7 @@ python3 NobitexAlerter.py \
 ```
 ### Set monitoring duration and interval
 ```bash
-python NobitexAlerter.py --alert BTCUSDT,>=,400000000,09xxxxxxxxx --duration 30 --sleep 300
+python3 NobitexAlerter.py --alert BTCUSDT,>=,400000000,09xxxxxxxxx --duration 30 --sleep 300
 ```
 ### Arguments
 * ```text --alert or -a: Add an alert in the format SYMBOL,OPERATOR,VALUE,RECIPIENT.```
